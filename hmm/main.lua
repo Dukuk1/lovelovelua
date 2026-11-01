@@ -91,7 +91,7 @@ end
 
 function love.load()
     love.window.setTitle("Fibonacci Rectangle Animation")
-    love.window.setMode(1300, 1300)
+    love.window.setMode(500, 500)
     love.keyboard.setKeyRepeat(true)
     font = love.graphics.getFont()
 end
